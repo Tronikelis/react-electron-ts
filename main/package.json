@@ -1,0 +1,15 @@
+{
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "cd src && (electron ../dist/index.js & tsc -w )",
+        "prod": "tsc && electron dist/index.js"
+    },
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "dependencies": {
+        "electron": "^16.0.6"
+    }
+}
