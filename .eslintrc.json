@@ -4,8 +4,7 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react-hooks/recommended",
-        "plugin:react/recommended",
-        "plugin:@next/next/recommended"
+        "plugin:react/recommended"
     ],
     "plugins": ["react", "react-hooks", "@typescript-eslint"],
     "ignorePatterns": ["build", "node_modules", "public"],

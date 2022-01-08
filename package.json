@@ -4,7 +4,8 @@
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
-        "dev": "concurrently \"cd client && npm run dev\" \"cd main && npm run dev\""
+        "dev": "concurrently \"cd client && npm run dev\" \"cd main && npm run dev\"",
+        "prod": "cd client && npm run prod && cd .. && cd main && npm run prod"
     },
     "devDependencies": {
         "@trivago/prettier-plugin-sort-imports": "^3.1.1",
